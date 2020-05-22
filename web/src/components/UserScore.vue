@@ -1,7 +1,7 @@
 <template>
   <div class="column is-half mp-user-column">
     <div :class="'team-indicator team-' + score.Team"></div>
-    <a :href="'https://datensi.xyz/u/' + uid" target="_blank" class="force32">
+    <a :href="'https://datenshi.xyz/u/' + uid" target="_blank" class="force32">
       <img :src="'https://a.datenshi.xyz/' + uid" class="force32">
     </a>
     <span style="margin-left: 5px">

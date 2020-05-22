@@ -12,7 +12,7 @@ import (
 func main() {
 	dsn := os.Getenv("MYSQL_DSN")
 	if dsn == "" {
-		dsn = "root:ochidarmaputra1290@tcp(datenshi.xyz:3306)/ripple"
+		dsn = "root:ochidarmaputra1290@tcp(139.99.88.243:3306)/ripple"
 	}
 	db, err := models.Create(dsn)
 	if err != nil {
